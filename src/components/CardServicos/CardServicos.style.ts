@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const CardContainer = styled.div<{ corDeFundo: string; corTexto: string }>`
@@ -24,7 +24,7 @@ export const CardServicoDescricao = styled.p`
   width: 95%;
 `;
 
-export const CardServicoBotao = styled.button<{ corDeFundo: string; corTexto: string }>`
+export const CardServicoBotao = styled(Link)<{ corDeFundo: string; corTexto: string }>`
   border: none;
   border-radius: 20px;
   width: 100px;

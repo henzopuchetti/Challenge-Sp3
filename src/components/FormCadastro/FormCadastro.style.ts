@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Main = styled.main`
   display: flex;
@@ -11,7 +12,7 @@ export const Main = styled.main`
   font-style: normal;
 `;
 
-export const FormContainer = styled.div`
+export const FormCadastroContainer = styled.div`
   background-color: white;
   border-radius: 10px;
   display: flex;
@@ -22,7 +23,7 @@ export const FormContainer = styled.div`
   height: 500px;
 `;
 
-export const Title = styled.h1`
+export const FormCadastroTitulo = styled.h1`
   width: 90%;
   font-size: 20px;
   text-align: center;
@@ -31,20 +32,20 @@ export const Title = styled.h1`
   font-style: normal;
 `;
 
-export const InputLabel = styled.form`
+export const FormCadastroInputLabel = styled.form`
   display: flex;
   flex-direction: column;
   margin-top: 15px;
   margin-bottom: 15px;
 `;
 
-export const Label = styled.label`
+export const FormCadastroLabel = styled.label`
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 700;
   font-style: normal;
 `;
 
-export const Input = styled.input`
+export const FormCadastroInput = styled.input`
   height: 25px;
   width: 245px;
   border-radius: 8px;
@@ -57,7 +58,7 @@ export const Input = styled.input`
   margin-bottom: 10px;
 `;
 
-export const Button = styled.a`
+export const FormCadastroBotao = styled(Link)`
   width: 50%;
   height: 25px;
   border: none;

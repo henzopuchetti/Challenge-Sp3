@@ -16,13 +16,13 @@ const Navbar: React.FC = () => {
             <NavbarMenuLink to="/login">Login</NavbarMenuLink>
           </NavbarMenuItem>
           <NavbarMenuItem>
-            <NavbarMenuLink to="chatbot.html">Chatbot</NavbarMenuLink>
+            <NavbarMenuLink to="/chatbot">Chatbot</NavbarMenuLink>
           </NavbarMenuItem>
           <NavbarMenuItem>
-            <NavbarMenuLink to="chamados.html">Chamado</NavbarMenuLink>
+            <NavbarMenuLink to="/chamados">Chamado</NavbarMenuLink>
           </NavbarMenuItem>
           <NavbarMenuItem>
-            <NavbarMenuLink to="integrantes.html">Integrantes</NavbarMenuLink>
+            <NavbarMenuLink to="/integrantes">Integrantes</NavbarMenuLink>
           </NavbarMenuItem>
         </NavbarMenuList>
       </Nav>

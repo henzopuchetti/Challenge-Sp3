@@ -1,30 +1,30 @@
 import React from 'react';
-import { Main, FormContainer, Title, InputLabel, Label, Input, Button } from './FormCadastro.style';
+import { Main, FormCadastroContainer, FormCadastroTitulo, FormCadastroInputLabel, FormCadastroLabel, FormCadastroInput, FormCadastroBotao } from './FormCadastro.style';
 
 const FormCadastro: React.FC = () => {
   return (
     <Main>
-      <FormContainer>
-        <Title>Seja bem-vindo ao Cadastro da HH</Title>
-        <InputLabel>
-          <Label htmlFor="fullName">Nome Completo:</Label>
-          <Input type="text" id="fullName" name="fullName" required />
+      <FormCadastroContainer>
+        <FormCadastroTitulo>Seja bem-vindo ao Cadastro da HH</FormCadastroTitulo>
+        <FormCadastroInputLabel>
+          <FormCadastroLabel htmlFor="fullName">Nome Completo:</FormCadastroLabel>
+          <FormCadastroInput type="text" id="fullName" name="fullName" required />
 
-          <Label htmlFor="email">Email:</Label>
-          <Input type="email" id="email" name="email" required />
+          <FormCadastroLabel htmlFor="email">Email:</FormCadastroLabel>
+          <FormCadastroInput type="email" id="email" name="email" required />
 
-          <Label htmlFor="password">Senha:</Label>
-          <Input type="password" id="password" name="password" required />
+          <FormCadastroLabel htmlFor="password">Senha:</FormCadastroLabel>
+          <FormCadastroInput type="password" id="password" name="password" required />
 
-          <Label htmlFor="confirmPassword">Confirmar Senha:</Label>
-          <Input type="password" id="confirmPassword" name="confirmPassword" required />
+          <FormCadastroLabel htmlFor="confirmPassword">Confirmar Senha:</FormCadastroLabel>
+          <FormCadastroInput type="password" id="confirmPassword" name="confirmPassword" required />
 
-          <Label htmlFor="birthDate">Data de Nascimento:</Label>
-          <Input type="text" id="birthDate" name="birthDate" placeholder="dd/mm/aaaa" required />
+          <FormCadastroLabel htmlFor="birthDate">Data de Nascimento:</FormCadastroLabel>
+          <FormCadastroInput type="text" id="birthDate" name="birthDate" placeholder="dd/mm/aaaa" required />
           
-          <Button href="login.html">Cadastrar</Button>
-        </InputLabel>
-      </FormContainer>
+          <FormCadastroBotao to="/login">Cadastrar</FormCadastroBotao>
+        </FormCadastroInputLabel>
+      </FormCadastroContainer>
     </Main>
   );
 }

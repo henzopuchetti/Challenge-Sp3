@@ -22,6 +22,7 @@ const Servicos: React.FC = () => {
           corDeFundo="#02C2FF"
           corTexto="white"
           botaoTexto="Usar Serviço"
+          linkDestino="/chamados"
         />
         <CardServico
           titulo="Serviço de ChatBot"
@@ -36,6 +37,7 @@ const Servicos: React.FC = () => {
           corDeFundo="white"
           corTexto="#02C2FF"
           botaoTexto="Usar Serviço"
+          linkDestino="/chatbot"
         />
       </ServicosContainer>
     </main>
