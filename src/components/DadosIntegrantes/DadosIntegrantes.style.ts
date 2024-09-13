@@ -21,6 +21,11 @@ export const IntegrantesContainer = styled.div`
   justify-content: center;
   gap: 20px; /* Espaçamento entre os integrantes */
   margin-top: 20px;
+
+  @media (max-width: 550px) {
+    flex-direction: column; /* Muda para coluna em telas menores */
+    align-items: center; /* Centraliza os itens em coluna */
+  }
 `;
 
 export const IntegrantesDiv = styled.div`

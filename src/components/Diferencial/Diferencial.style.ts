@@ -12,6 +12,18 @@ export const DiferencialTitulo = styled.h2`
   color: #02C2FF;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 28px;
+  }
 `;
 
 export const DiferencialParagrafo = styled.p`

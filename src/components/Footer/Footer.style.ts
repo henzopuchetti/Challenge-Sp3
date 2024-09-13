@@ -8,9 +8,10 @@ export const FooterContainer = styled.footer`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: white;
   margin-top: 50px
+
 `;
 
 export const Logo = styled.img`
@@ -20,6 +21,13 @@ export const Logo = styled.img`
 export const FooterLista = styled.ul`
   list-style-type: none;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const FooterItem = styled.li`

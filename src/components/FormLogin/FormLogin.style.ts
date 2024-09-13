@@ -7,9 +7,7 @@ export const Main = styled.main`
   align-items: center;
   background-color: #02C2FF;
   height: 100vh;
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+
 `;
 
 export const FormLoginContainer = styled.form`
@@ -24,12 +22,9 @@ export const FormLoginContainer = styled.form`
 `;
 
 export const FormLoginTitulo = styled.h1`
-  width: 90%;
+  width: 80%;
   font-size: 20px;
   text-align: center;
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 700;
-  font-style: normal;
 `;
 
 export const FormLoginInputLabel = styled.div`
@@ -39,25 +34,21 @@ export const FormLoginInputLabel = styled.div`
 
 export const FormLoginLabel = styled.label`
   font-size: 15px;
-  font-family: "Hind Siliguri", sans-serif;
   font-weight: 700;
-  font-style: normal;
 `;
 
 export const FormLoginInput = styled.input`
   height: 25px;
   width: 265px;
-  border-radius: 8px;
-  border: 1px solid #747474;
-  padding-left: 10px;
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 500;
-  font-style: normal;
   font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 10px;
+  background-color: #D9D9D9;
 `;
 
 export const FormLoginA = styled.div`
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 `;
 
 export const FormLoginLink = styled(Link)`
@@ -67,16 +58,14 @@ export const FormLoginLink = styled(Link)`
 `;
 
 export const FormLoginBotao = styled(Link)`
-  width: 200px;
+  width: 120px;
   height: 25px;
   border: none;
   border-radius: 8px;
   background-color: #02C2FF;
   color: white;
   font-size: 15px;
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+  font-weight: 600; 
   margin: 0 auto;
   text-align: center;
 `;

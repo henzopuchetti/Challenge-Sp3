@@ -9,19 +9,14 @@ const FormCadastro: React.FC = () => {
         <FormCadastroInputLabel>
           <FormCadastroLabel htmlFor="fullName">Nome Completo:</FormCadastroLabel>
           <FormCadastroInput type="text" id="fullName" name="fullName" required />
-
           <FormCadastroLabel htmlFor="email">Email:</FormCadastroLabel>
           <FormCadastroInput type="email" id="email" name="email" required />
-
           <FormCadastroLabel htmlFor="password">Senha:</FormCadastroLabel>
           <FormCadastroInput type="password" id="password" name="password" required />
-
           <FormCadastroLabel htmlFor="confirmPassword">Confirmar Senha:</FormCadastroLabel>
           <FormCadastroInput type="password" id="confirmPassword" name="confirmPassword" required />
-
           <FormCadastroLabel htmlFor="birthDate">Data de Nascimento:</FormCadastroLabel>
           <FormCadastroInput type="text" id="birthDate" name="birthDate" placeholder="dd/mm/aaaa" required />
-          
           <FormCadastroBotao to="/login">Cadastrar</FormCadastroBotao>
         </FormCadastroInputLabel>
       </FormCadastroContainer>

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const CardContainer = styled.div<{ corDeFundo: string; corTexto: string }>`
   background-color: ${(props) => props.corDeFundo};
   width: 90%;
-  height: 180px;
+  min-height: 180px;
   border-radius: 10px;
   margin-top: 20px;
   border: 1px solid lightgray;

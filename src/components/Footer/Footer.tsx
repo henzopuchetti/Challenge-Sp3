@@ -2,7 +2,6 @@ import React from 'react';
 import { FooterContainer, Logo, FooterLista, FooterItem, FooterLink } from './Footer.style';
 import logo from '../../assets/Captura_de_tela_2024-05-22_101428-removebg-preview.png'
 
-// Componente Footer
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
